@@ -1,0 +1,16 @@
+This directory contains my plasmid maps in the genbank flat
+file format.  They were written by M. Wayne Davis' wonderful
+plasmid editor: ApE.
+http://biologylabs.utah.edu/jorgensen/wayned/ape/
+
+In order to maintain consistency, please use the features file:
+Default_Features.txt included in this directory.
+
+A semi-complete database of plasmids in use at the Dinman
+laboratory may be found at:
+http://dinmanlab.umd.edu/plasmids/
+
+The backbones/ directory contains the sequence for as many
+of the parental plasmids as I have been able to acquire.
+
+
