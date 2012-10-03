@@ -1,0 +1,127 @@
+LOCUS       pLS88        4772 bp dsDNA    Circular
+DEFINITION  ATCC 86980: Plasmid pLS88 sulfonamide and streptomycin resistance proteins (sulA, strA, strB) genes, complete cds's.
+COMMENT     This file is best viewed with a free Vector NTI Viewer:
+COMMENT     http://www.informaxinc.com/view/viewer.html
+COMMENT     VNTREPLTYPE|Plasmid|
+COMMENT     VNTEXTCHREPL|Bacteria|
+COMMENT     VNTKW|ATCC 86980|
+COMMENT     VNTKW|Updated 12/2/97 MB3|
+FEATURES               Location/Qualifiers
+     iDNA            1..107
+                     /note="This region is homologous to the upstream region of the RSF1010 sulII gene (Scholz, et al).; putative"
+     -35_signal      42..48
+                     /note="identified in RSF1010 (Scholz, et al.), sequence present in pLS88 (Dixon, et al.).; putative"
+     -10_signal      65..71
+                     /note="promoter identified in RSF1010 (Scholz, et al.). Sequence present in pLS88 (Dixon, et al.).; putative"
+     CDS             1748..1845
+                     /note="strB sequence is incomplete due to crossover event (Dixon, et al.).; putative. Streptomycin resistance"
+                     /label=strB
+     rep_origin      1850..2672
+                     /note="The region was isolated via deletion derivatives. Precise position unknown. Replication mode unknown. No plasmid-assoc"
+                     /label=ori
+     iDNA            1850..2016
+                     /note="sequence homology found through GenBank search.; putative"
+     iDNA            2339..2465
+                     /note="sequence homology found through GenBank search.; putative"
+     misc_feature    3898..4094
+                     /note="Deletion of this region does not change the host phenotype (Dixon, et al.)"
+                     /label=Unique\Sequence
+     misc_feature    4423..4577
+                     /note="The region has homology to Pasteurellaceae plasmids pHD148 and pHD8.1. Deletion does not change the host phenotype (Di"
+     misc_feature    4578..4772
+                     /note="This region is homologous to the region upstream of the RSF1010 sulII gene (Scholz, et al.)"
+     -35_signal      4733..4739
+                     /note="Identified in RSF1010 (Scholz, et al.). Present in pLS88 (Dixon, et al.).; putative"
+     -10_signal      4756..4762
+                     /note="Identified in RSF1010 (Scholz, et al.). Present in pLS88 (Dixon, et al. ).; putative"
+     CDS             108..899
+                     /note="sulR sulfonamide II resistance, sulA dihydropteroate synthase"
+                     /label=sulR\(sulfonamide\II\resistance)
+     CDS             944..1748
+                     /note="strR streptomycin A resistance, strA aminoglycoside 3'-phosphotransferase"
+                     /label=strR
+     CDS             3083..3897
+                     /note="kanR kanamycin resistance, Tn903 - type I"
+                     /label=kanR
+ORIGIN
+        1 ctgcagctaa tggatcaccg caaacaggtt actcgcctgg ggattccctt tcgacccgag 
+       61 catccgtatg agactcatgc tcgattatta ttattataga agcccccatg aataaatcgc 
+      121 tcatcatttt cggcatcgtc aacataacct cggacagttt ctccgatgga ggccggtatc 
+      181 tggcgccaga cgcagccatt gcgcaggcgc gtaagctgat gtccgagggg gcagatgtga 
+      241 tcgacctcgg tccggcatcc agcaatcccg acgccgcgcc tgtttcgtcc gacacagaaa 
+      301 tcgcgcgtat cgcgccggtg ctggacgcgc tcaaggcaga tggcattccc gtctcgctcg 
+      361 acagttatca acccgcgacg caagcctctg ccttgtcgcg tggtgtggcc tatctcaatg 
+      421 atattcgcgg ttttccagac gctgcgttct atccgcaatt ggcgaaatca tctgccaaac 
+      481 tcgtcgttat gcattcggtg caagacgggc aggcagatcg gcgcgaggca cccgctggcg 
+      541 acatcatgga tcacattgcg gcgttctttg acgcgcgcat cgcggcgctg acgggtgccg 
+      601 gtatcaaacg caaccgcctt gtccttgatc ccggcatggg gttttttctg ggggctgctc 
+      661 ccgaaacctc gctctcggtg ctggcgcggt tcgatgaatt gcggctgcgc ttcgatttgc 
+      721 cggtgcttct gtctgtttcg cgcaaatcct ttctgcgcgc gctcacaggc cgtggtccgg 
+      781 ggatgtcggg gccgcgacac tcgctgcaga gcttgccgcc gccgcaggtg gagctgactt 
+      841 catccgcaca cacgagccgc gccccttgcg cgacgggctg gcggtattgg cggcgctgaa 
+      901 agaaaccgca agaattcgtt atcagaaaac tgaaggaacc tccattgaat cgaactaata 
+      961 ttttttttgg tgaatcgcat tctgactggt tgcctgtcag aggcggagaa tccggtgatt 
+     1021 ttgtttttcg acgtggtgac gggcatgcct tcgcgaaaat cgcacctgct tcccgccgcg 
+     1081 gtgagctcgc tggagagcgt gaccgcctca tttggctcaa aggtcgaggt gtggcttgcc 
+     1141 ccgaggtgat caactggcag gaggaacagg agggtgcatg cttggtgata acggcaattc 
+     1201 cgggagtacc ggcggctgat ctgtctggag cggatttgct caaagcgtgg ccgtcaatgg 
+     1261 ggcagcaact tggcgctgtt cacagcctat cggttgatca atgtccgttt gagcgcaggc 
+     1321 tgtcgcgaat gttcggacgc gccgttgatg tggtgtcccg caatgccgtc aatcccgact 
+     1381 tcttaccgga cgaggacaag agtacgccgc agctcgatct tttggctcgt gtcgaacgag 
+     1441 agctaccggt gcggctcgac caagagcgca ccgatatggt tgtttgccat ggtgatccct 
+     1501 gcatgccgaa cttcatggtg gaccctaaaa ctcttcaatg cacgggtctg atcgaccttg 
+     1561 ggcggctcgg aacagcagat cgctatgccg atttggcact catgattgct aacgccgaag 
+     1621 agaactgggc agcgccagat gaagcagagc gcgccttcgc tgtcctattc aatgtattgg 
+     1681 ggatcgaagc ccccgaccgc gaacgccttg ccttctatct gcgattggac cctctgactt 
+     1741 ggggttgatg ttcatgccgc ctgtttttcc tgctcattgg cacgtttcgc aacctgttct 
+     1801 cattgcggac accttttcca gcctcgtttg gaaagtttca ttgacagtaa taccaatgct 
+     1861 ttagaaagaa aaagggatcg aacttttgac attcgatccc tttttctgta atctgtttcg 
+     1921 tgcgttcttt gctaagatac agaccctaga caagtcatat cttagcaaag ggtagctagt 
+     1981 aaatgcaaga gattgcgaag cgtccctact accaaaaaac cattcaacga cgtaaacaga 
+     2041 caaacgcaaa ccttaaatta gacggtcttc agctcggact tcggaagaat aaacaggcgt 
+     2101 agaagtgata acgttcttaa tacgaaaatt aagctctgtc tccgtttcgt gctacggtta 
+     2161 gaaaggcgaa agccccaaga aatacaagca cacctgataa gcgagattta aggataacag 
+     2221 cgaaattcaa tagggtctga atttccaaac taggttaaat gccacgacgt tttattgttg 
+     2281 ccccattcaa gcaacatttg agaaccgaat agaaatcttt tagtaaaaag cgttcttttt 
+     2341 tgggtcagcg gctaatgtgg acggtttaac ggtttttccc ctgcgggtcg ttttggaaag 
+     2401 ccattgaaaa gctgatggat aactctgcga gttacccacg agctttccaa cagctttcca 
+     2461 acactaaaaa cctaccgccc acaataacca cttccctaat aataaaattt ttttcttttt 
+     2521 atttgggttc aaaggctcac gatgttcgcc taataaaacg aagtcgccta tcggctccgc 
+     2581 tgatttttat atatcactct cggggctttt ggtgtactat tgtcttttgt aatagcaagg 
+     2641 acacaaaaag ggtactcttc gagtttcctt tttgaccttg caaaagggct ttgccccctt 
+     2701 gacccccgac cgctttcagc ggtcaaaata gaagaacgga caccattatg aaacgtgaga 
+     2761 aagagataaa aatcaggctc accgaaaacg agtatcaagc cttgttagag agaaaaacga 
+     2821 aagcaaggct tgcggagtgg gttcgggagt tgcccctgga acagcaacct aagcgacagc 
+     2881 cgaaagtaat cgaccctgcg ttactgttcg agctgaaccg cataggcgta aacctgaacc 
+     2941 aaatcgcccg acaatacaac agtcaaaagc cgagcattga ccttgttagc gtgttggcga 
+     3001 ccttgcattg cacaagataa aaatttttca tcatgaacaa taaaactgtc tgcttacata 
+     3061 aacagtaata caaggggtgt tatgagccat attcaacggg aaacgtcttg ctcgaggccg 
+     3121 cgattaaatt ccaacctgga tgctgattta tatgggtata aatgggctcg cgataatgtc 
+     3181 gggcaatcag gtgcgacaat ctatcgattg tatgggaagc ccgatgcgcc agagttgttt 
+     3241 ctgaaacatg gcaaaggtag cgttgccaat gatgttacag atgagatggt cagactaaac 
+     3301 tggctgacgg catttatgcc tcttccgacc atcaagcatt ttatccgtac tcctgatgat 
+     3361 gcatggttac tcaccactgc gctccccggg aaaacagcat tccaggtatt agaagaatat 
+     3421 cctgattcag gtgaaaatat tgttgatgcg ctggcagcgt tcctgcgccg gttgcattcg 
+     3481 attcctgtta gtaattgtcc ttttaacagc gatcgcgtat ttcgtctcgc tcaggcgcaa 
+     3541 tcacgaatga attacggttt ggttgatgcg agtgattttg atgacgagcg taatggctgg 
+     3601 cctgttgaac aagtctggaa agaaatgcat aagcttttgc cattctcacc ggattcagac 
+     3661 gtcactcatg gtgatttctc acttgataac cttatttttg acgaggggaa attaataggt 
+     3721 tgtattgatg ttggacgagt cggaatcgca gaccgatacc aggatcttgc catcctatgg 
+     3781 aactgcctcg gtgaattttc tccttcatta cagaaacggc tttttcaaaa atatggtatt 
+     3841 gataatcctg atatgaataa attgcagttt catttgatgc tcgatgagtt tttctgatag 
+     3901 ttagtctttg tagagacaca aacctgaaat tccggacacc gcgcttcagg acatctccct 
+     3961 ggacgccgat atctggcagt atccggacgg gactatcgaa cgccgggcca acggtactcc 
+     4021 cctgcccttt atgactgacg accggctatt tcacccacgc acttctccat gaaatttagc 
+     4081 atcgtcgtgt cacgccccca aacctgcaaa cccagcaggg gcgggggctg gcggggtgtt 
+     4141 ggaaaaatcc atccatgatt atccaagaat aatccactag gcgcggttat cagcgccctt 
+     4201 gtggggcgct gctgcccttg cccaatatgc ccggccagag gccggataac tgatctatcc 
+     4261 gctgcgctag gctacacacc cgcccccacc gctgcgcggc agggggaaag gcgggcaaag 
+     4321 cccgctaaac cccacaccaa acccgcagta atccgctgga gcgatttagc cgctttagcg 
+     4381 gccttttccc tacccgaagg ggtgggggcg gtgtgcagcc ccgaaggggc caatttagcg 
+     4441 gccaatttca agcggcttgt gatgctgata agtgccgtgg gtggtccctt acgatatggg 
+     4501 agtaatcagg cttgccgaaa agggctttga gtggatctgt catggctgat ctccaaacat 
+     4561 atcaagcgtg tctgtatccc actctattgt aaacaagaca tttttatctt ttatattcaa 
+     4621 tggcttattt tcctgctaat tggtaatatc atgaaaaata ccatgctcag aaaaggctta 
+     4681 acaatatttt gaaaaattgc ctactgagcg ctgccgcaca gctccatagg ccgctttcct 
+     4741 ggctttgctt ccagatgtat gctattctgc tc 
+//

@@ -1,0 +1,64 @@
+LOCUS       pUK          2433 bp dsDNA    Circular
+DEFINITION  ATCC 87209.  Expression vector for E. coli
+COMMENT     This file is best viewed with a free Vector NTI Viewer:
+COMMENT     http://www.informaxinc.com/view/viewer.html
+COMMENT     VNTREPLTYPE|Plasmid|
+COMMENT     VNTEXTCHREPL|Bacteria|
+COMMENT     VNTKW|ATCC 87209|
+COMMENT     VNTKW|ESCHERICHIA COLI|
+COMMENT     VNTKW|EXPRESSION|
+FEATURES               Location/Qualifiers
+     promoter        complement(5..76)
+                     /note="tac promoter from pKK223-3"
+                     /label=tac\promoter
+     misc_feature    2403..5
+                     /label=MCS
+     rep_origin      153
+                     /label=pMB1\ori
+     CDS             complement(910..1770)
+                     /label=ampR
+     terminator      complement(1995..2197)
+                     /label=rrnB\terminator
+ORIGIN
+        1 aattctgttt cctgtgtgaa attgttatcc gctcacaatt ccacacatta tacgagccga 
+       61 tgattaattg tcaacagctc atttcagaat catgtgagca aaaggccagc aaaaggccag 
+      121 gaaccgtaaa aaggccgcgt tgctggcgtt tttccatagg ctccgccccc ctgacgagca 
+      181 tcacaaaaat cgacgctcaa gtcagaggtg gcgaaacccg acaggactat aaagatacca 
+      241 ggcgtttccc cctggaagct ccctcgtgcg ctctcctgtt ccgaccctgc cgcttaccgg 
+      301 atacctgtcc gcctttctcc cttcgggaag cgtggcgctt tctcaaagct cacgctgtag 
+      361 gtatctcagt tcggtgtagg tcgttcgctc caagctgggc tgtgtgcacg aaccccccgt 
+      421 tcagcccgac cgctgcgcct tatccggtaa ctatcgtctt gagtccaacc cggtaagaca 
+      481 cgacttatcg ccactggcag cagccactgg taacaggatt agcagagcga ggtatgtagg 
+      541 cggtgctaca gagttcttga agtggtggcc taactacggc tacactagaa gaacagtatt 
+      601 tggtatctgc gctctgctga agccagttac cttcggaaaa agagttggta gctcttgatc 
+      661 cggcaaacaa accaccgctg gtagcggtgg tttttttgtt tgcaagcagc agattacgcg 
+      721 cagaaaaaaa ggatctcaag aagatccttt gatcttttct acggggtctg acgctcagtg 
+      781 gaacgaaaac tcacgttaag ggattttggt catgagatta tcaaaaagga tcttcaccta 
+      841 gatcctttta aattaaaaat gaagttttaa atcaatctaa agtatatatg agtaaacttg 
+      901 gtctgacagt taccaatgct taatcagtga ggcacctatc tcagcgatct gtctatttcg 
+      961 ttcatccata gttgcctgac tccccgtcgt gtagataact acgatacggg agggcttacc 
+     1021 atctggcccc agtgctgcaa tgataccgcg agacccacgc tcaccggctc cagatttatc 
+     1081 agcaataaac cagccagccg gaagggccga gcgcagaagt ggtcctgcaa ctttatccgc 
+     1141 ctccatccag tctattaatt gttgccggga agctagagta agtagttcgc cagttaatag 
+     1201 tttgcgcaac gttgttgcca ttgctacagg catcgtggtg tcacgctcgt cgtttggtat 
+     1261 ggcttcattc agctccggtt cccaacgatc aaggcgagtt acatgatccc ccatgttgtg 
+     1321 caaaaaagcg gttagctcct tcggtcctcc gatcgttgtc agaagtaagt tggccgcagt 
+     1381 gttatcactc atggttatgg cagcactgca taattctctt actgtcatgc catccgtaag 
+     1441 atgcttttct gtgactggtg agtactcaac caagtcattc tgagaatagt gtatgcggcg 
+     1501 accgagttgc tcttgcccgg cgtcaatacg ggataatacc gcgccacata gcagaacttt 
+     1561 aaaagtgctc atcattggaa aacgttcttc ggggcgaaaa ctctcaagga tcttaccgct 
+     1621 gttgagatcc agttcgatgt aacccactcg tgcacccaac tgatcttcag catcttttac 
+     1681 tttcaccagc gtttctgggt gagcaaaaac aggaaggcaa aatgccgcaa aaaagggaat 
+     1741 aagggcgaca cggaaatgtt gaatactcat actcttcctt tttcaatatt attgaagcat 
+     1801 ttatcagggt tattgtctca tgagcggata catatttgaa tgtatttaga aaaataaaca 
+     1861 aataggggtt ccgcgcacat ttccccgaaa agtgccacct gattattgaa gcatttatca 
+     1921 gggttattgt ctcatgagcg gatacatatt tgaatgtatt tagaaaaata aacaaaagag 
+     1981 tttgtagaaa cgcaaaaagg ccatccgtca ggatggcctt ctgcttaatt tgatgcctgg 
+     2041 cagtttatgg cgggcgtcct gcccgccacc ctccgggccg ttgcttcgca acgttcaaat 
+     2101 ccgctcccgg cggatttgtc ctactcagga gagcgttcac cgacaaacaa cagataaaac 
+     2161 gaaaggccca gtctttcgac tgagcctttc gttttatttg atgcctggca gttccctact 
+     2221 ctcgcatggg gagaccccac actaccatcg gcgctacggc gtttcacttc tgagttcggc 
+     2281 atggggtcag gtgggaccac cgcgctactg ccgccaggca aattctgttt tatcagaccg 
+     2341 cttctgcgtt ctgatttaat ctgtatcagg ctgaaaatct tctctcatcc gccaaaacag 
+     2401 ccaagcttgg ctgcaggtcg acggatcccc ggg 
+//

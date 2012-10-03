@@ -1,0 +1,69 @@
+LOCUS               pSMART_kan        1788 bp ds-DNA   circular     12-SEP-2009
+DEFINITION  Cloning vector pSMART-HCKan, complete sequence.
+ACCESSION   AF532107
+VERSION     AF532107.1  GI:22476919
+KEYWORDS    .
+SOURCE      Cloning vector pSMART-HCKan
+  ORGANISM  Cloning vector pSMART-HCKan other sequences; artificial sequences;
+            vectors.
+REFERENCE   1  (bases 1 to 1788)
+  AUTHORS   Godiska,R., Mead,D.A., Patterson,M.K. and Schoenfeld,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-JUL-2002) Lucigen Corporation, 2120 W. Greenview
+            Drive, #9, Middleton, WI 53562, USA
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     gene            200..1015
+                     /gene="aph"
+                     /label=aph
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     CDS             200..1015
+                     /gene="aph"
+                     /note="kanamycin kinase"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="aminoglycoside phosphotransferase"
+                     /protein_id="AAM97347.1"
+                     /db_xref="GI:22476920"
+                     /translation="MSHIQRETSCSRPRLNSNMDADLYGYKWARDNVGQSGATIYRLY
+                     GKPDAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIP
+                     GKTAFQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNGDRVFRLAQAQSRMNNGL
+                     VGASDFDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVG
+                     RVGIADRYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF"
+                     /label=aminoglycoside phosphotransferase
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+ORIGIN
+        1 gacgaattct ctagatatcg ctcaatactg accatttaaa tcatacctga cctccatagc
+       61 agaaagtcaa aagcctccga ccggaggctt ttgacttgat cggcacgtaa gaggttccaa
+      121 ctttcaccat aatgaaataa gatcactacc gggcgtattt tttgagttat cgagattttc
+      181 aggagctaag gaagctaaaa tgagccatat tcaacgggaa acgtcttgct cgaggccgcg
+      241 attaaattcc aacatggatg ctgatttata tgggtataaa tgggctcgcg ataatgtcgg
+      301 gcaatcaggt gcgacaatct atcgattgta tgggaagccc gatgcgccag agttgtttct
+      361 gaaacatggc aaaggtagcg ttgccaatga tgttacagat gagatggtca ggctaaactg
+      421 gctgacggaa tttatgcctc ttccgaccat caagcatttt atccgtactc ctgatgatgc
+      481 atggttactc accactgcga tcccagggaa aacagcattc caggtattag aagaatatcc
+      541 tgattcaggt gaaaatattg ttgatgcgct ggcagtgttc ctgcgccggt tgcattcgat
+      601 tcctgtttgt aattgtcctt ttaacggcga tcgcgtattt cgtctcgctc aggcgcaatc
+      661 acgaatgaat aacggtttgg ttggtgcgag tgattttgat gacgagcgta atggctggcc
+      721 tgttgaacaa gtctggaaag aaatgcataa gcttttgcca ttctcaccgg attcagtcgt
+      781 cactcatggt gatttctcac ttgataacct tatttttgac gaggggaaat taataggttg
+      841 tattgatgtt ggacgagtcg gaatcgcaga ccgataccag gatcttgcca tcctatggaa
+      901 ctgcctcggt gagttttctc cttcattaca gaaacggctt tttcaaaaat atggtattga
+      961 taatcctgat atgaataaat tgcagtttca cttgatgctc gatgagtttt tctaatgagg
+     1021 gcccaaatgt aatcacctgg ctcaccttcg ggtgggcctt tctgcgttgc tggcgttttt
+     1081 ccataggctc cgcccccctg acgagcatca caaaaatcga tgctcaagtc agaggtggcg
+     1141 aaacccgaca ggactataaa gataccaggc gtttccccct ggaagctccc tcgtgcgctc
+     1201 tcctgttccg accctgccgc ttaccggata cctgtccgcc tttctccctt cgggaagcgt
+     1261 ggcgctttct catagctcac gctgtaggta tctcagttcg gtgtaggtcg ttcgctccaa
+     1321 gctgggctgt gtgcacgaac cccccgttca gcccgaccgc tgcgccttat ccggtaacta
+     1381 tcgtcttgag tccaacccgg taagacacga cttatcgcca ctggcagcag ccactggtaa
+     1441 caggattagc agagcgaggt atgtaggcgg tgctacagag ttcttgaagt ggtggcctaa
+     1501 ctacggctac actagaagaa cagtatttgg tatctgcgct ctgctgaagc cagttacctc
+     1561 ggaaaaagag ttggtagctc ttgatccggc aaacaaacca ccgctggtag cggtggtttt
+     1621 tttgtttgca agcagcagat tacgcgcaga aaaaaaggat ctcaagaaga tcctttgatt
+     1681 ttctaccgaa gaaaggccca cccgtgaagg tgagccagtg agttgattgc agtccagtta
+     1741 cgctggagtc tgaggctcgt cctgaatgat atcaagcttg aattcgtt 
+//

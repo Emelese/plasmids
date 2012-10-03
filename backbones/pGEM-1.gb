@@ -1,0 +1,99 @@
+LOCUS       X65300                  2865 bp    DNA     circular SYN 16-JUL-1999
+DEFINITION  Cloning vector pGEM-1.
+ACCESSION   X65300
+VERSION     X65300.1  GI:58196
+KEYWORDS    cloning vector; multiple cloning site; promoter.
+SOURCE      Cloning vector pGEM-1
+  ORGANISM  Cloning vector pGEM-1
+            other sequences; artificial sequences; vectors.
+REFERENCE   1
+  AUTHORS   Technical,Services.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-MAR-1992) Technical Services, Promega Corporation,
+            2800 Woods Hollow Road, Madison, Wi 53711-5399, USA
+  REMARK    revised by [2]
+REFERENCE   2  (bases 1 to 2865)
+  AUTHORS   Technical,Services.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAY-1993) Technical Services, Promega Corporation,
+            2800 Woods Hollow Road, Madison, Wi 53711-5399, USA
+COMMENT     The Riboprobe Gemini (TM) system pGEM-1 vector is a plasmid that
+            contains SP6/T7 promoters flanking the pUC13 polylinker.  It is
+            intended for use as a standard cloning vector as well as for the
+            efficient synthesis of RNA in vitro.  The plasmid carries the gene
+            for ampicillin resistance and is 2865bp in length.
+            See X65300-X65335 for related vector sequences
+            This vector can be obtained from Promega Corporation, Madison, WI.
+            Call one of the following numbers for order or technical
+            information:
+            Order or Technical 800-356-9526
+            In Wisconsin       800-356-9526
+            Outside U.S.       608-274-4330.
+FEATURES             Location/Qualifiers
+     source          1..2865
+                     /organism="Cloning vector pGEM-1"
+                     /mol_type="other DNA"
+                     /db_xref="taxon:90106"
+     misc_feature    1
+                     /note="SP6 transcription initiation site"
+     misc_feature    7..57
+                     /note="multiple cloning sites"
+     promoter        61..83
+                     /note="T7 promoter"
+     misc_feature    66
+                     /note="T7 transcription initiation site"
+     misc_feature    94..152
+                     /note="lac operon sequence"
+     promoter        2848..2865
+                     /note="SP6 promoter"
+ORIGIN      
+        1 gaatacaagc ttgggctgca ggtcgactct agaggatccc cgggcgagct cgaattccgg
+       61 tctccctata gtgagtcgta ttaatttcga taagccagct gcattaatga atcggccaac
+      121 gcgcggggag aggcggtttg cgtattgggc gctcttccgc ttcctcgctc actgactcgc
+      181 tgcgctcggt cgttcggctg cggcgagcgg tatcagctca ctcaaaggcg gtaatacggt
+      241 tatccacaga atcaggggat aacgcaggaa agaacatgtg agcaaaaggc cagcaaaagg
+      301 ccaggaaccg taaaaaggcc gcgttgctgg cgtttttcca taggctccgc ccccctgacg
+      361 agcatcacaa aaatcgacgc tcaagtcaga ggtggcgaaa cccgacagga ctataaagat
+      421 accaggcgtt tccccctgga agctccctcg tgcgctctcc tgttccgacc ctgccgctta
+      481 ccggatacct gtccgccttt ctcccttcgg gaagcgtggc gctttctcat agctcacgct
+      541 gtaggtatct cagttcggtg taggtcgttc gctccaagct gggctgtgtg cacgaacccc
+      601 ccgttcagcc cgaccgctgc gccttatccg gtaactatcg tcttgagtcc aacccggtaa
+      661 gacacgactt atcgccactg gcagcagcca ctggtaacag gattagcaga gcgaggtatg
+      721 taggcggtgc tacagagttc ttgaagtggt ggcctaacta cggctacact agaaggacag
+      781 tatttggtat ctgcgctctg ctgaagccag ttaccttcgg aaaaagagtt ggtagctctt
+      841 gatccggcaa acaaaccacc gctggtagcg gtggtttttt tgtttgcaag cagcagatta
+      901 cgcgcagaaa aaaaggatct caagaagatc ctttgatctt ttctacgggg tctgacgctc
+      961 agtggaacga aaactcacgt taagggattt tggtcatgag attatcaaaa aggatcttca
+     1021 cctagatcct tttaaattaa aaatgaagtt ttaaatcaat ctaaagtata tatgagtaaa
+     1081 cttggtctga cagttaccaa tgcttaatca gtgaggcacc tatctcagcg atctgtctat
+     1141 ttcgttcatc catagttgcc tgactccccg tcgtgtagat aactacgata cgggagggct
+     1201 taccatctgg ccccagtgct gcaatgatac cgcgagaccc acgctcaccg gctccagatt
+     1261 tatcagcaat aaaccagcca gccggaaggg ccgagcgcag aagtggtcct gcaactttat
+     1321 ccgcctccat ccagtctatt aattgttgcc gggaagctag agtaagtagt tcgccagtta
+     1381 atagtttgcg caacgttgtt gccattgcta caggcatcgt ggtgtcacgc tcgtcgtttg
+     1441 gtatggcttc attcagctcc ggttcccaac gatcaaggcg agttacatga tcccccatgt
+     1501 tgtgcaaaaa agcggttagc tccttcggtc ctccgatcgt tgtcagaagt aagttggccg
+     1561 cagtgttatc actcatggtt atggcagcac tgcataattc tcttactgtc atgccatccg
+     1621 taagatgctt ttctgtgact ggtgagtact caaccaagtc attctgagaa tagtgtatgc
+     1681 ggcgaccgag ttgctcttgc ccggcgtcaa tacgggataa taccgcgcca catagcagaa
+     1741 ctttaaaagt gctcatcatt ggaaaacgtt cttcggggcg aaaactctca aggatcttac
+     1801 cgctgttgag atccagttcg atgtaaccca ctcgtgcacc caactgatct tcagcatctt
+     1861 ttactttcac cagcgtttct gggtgagcaa aaacaggaag gcaaaatgcc gcaaaaaagg
+     1921 gaataagggc gacacggaaa tgttgaatac tcatactctt cctttttcaa tattattgaa
+     1981 gcatttatca gggttattgt ctcatgagcg gatacatatt tgaatgtatt tagaaaaata
+     2041 aacaaatagg ggttccgcgc acatttcccc gaaaagtgcc acctgacgtc taagaaacca
+     2101 ttattatcat gacattaacc tataaaaata ggcgtatcac gaggcccttt cgtctcgcgc
+     2161 gtttcggtga tgacggtgaa aacctctgac acatgcagct cccggagacg gtcacagctt
+     2221 gtctgtaagc ggatgccggg agcagacaag cccgtcaggg cgcgtcagcg ggtgttggcg
+     2281 ggtgtcgggg ctggcttaac tatgcggcat cagagcagat tgtactgaga gtgcaccata
+     2341 tcgacgctct cccttatgcg actcctgcat taggaagcag cccagtagta ggttgaggcc
+     2401 gttgagcacc gccgccgcaa ggaatggtgc atgcaaggag atggcgccca acagtccccc
+     2461 ggccacgggg cctgccacca tacccacgcc gaaacaagcg ctcatgagcc cgaagtggcg
+     2521 agcccgatct tccccatcgg tgatgtcggc gatataggcg ccagcaaccg cacctgtggc
+     2581 gccggtgatg ccggccacga tgcgtccggc gtagaggatc tggctagcga tgaccctgct
+     2641 gattggttcg ctgaccattt ccggggtgcg gaacggcgtt accagaaact cagaaggttc
+     2701 gtccaaccaa accgactctg acggcagttt acgagagaga tgatagggtc tgcttcagta
+     2761 agccagatgc tacacaatta ggcttgtaca tattgtcgtt agaacgcggc tacaattaat
+     2821 acataacctt atgtatcata cacatacgat ttaggtgaca ctata
+//
+

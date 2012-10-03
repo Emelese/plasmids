@@ -1,0 +1,75 @@
+LOCUS                   pSMART        1833 bp ds-DNA   linear       12-SEP-2009
+DEFINITION  Cloning vector pSMART, complete sequence.
+ACCESSION   AF399742
+VERSION     AF399742.1  GI:16973669
+KEYWORDS    .
+SOURCE      Cloning vector pSMART
+  ORGANISM  Cloning vector pSMART other sequences; artificial sequences;
+            vectors.
+REFERENCE   1  (bases 1 to 1833)
+  AUTHORS   Mead,D.A., Godiska,R., Schoenfeld,T. and Reuter,M.K.
+  TITLE     Shotgun Cloning Vector
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1833)
+  AUTHORS   Mead,D.A., Godiska,R., Schoenfeld,T. and Reuter,M.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-JUL-2001) Lucigen Corporation, 2120 West Greenview
+            Drive, Middleton, WI 53562, USA
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     gene            200..1060
+                     /gene="Ap-R"
+                     /label=Ap-R
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     CDS             200..1060
+                     /gene="Ap-R"
+                     /note="confers ampicillin resistance"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="beta-lactamase"
+                     /protein_id="AAL32364.1"
+                     /db_xref="GI:16973670"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGY
+                     IELDLNSGKILESLRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVE
+                     YSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLATIGGPKELTAFLHNMGDHVTRL
+                     DRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGSL
+                     LRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIA
+                     EIGASLIKHW"
+                     /label=beta-lactamase
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+ORIGIN
+        1 gacgaattct ctagatatcg ctcaatactg accatttaaa tcatacctga cctccatagc
+       61 agaaagtcaa aagcctccga ccggaggctt ttgacttgat cggcacgtaa gaggttccaa
+      121 ctttcaccat aatgaaataa gatcactacc gggcgtattt tttgagttat cgagattttc
+      181 aggagctaag gaagctaaaa tgagtattca acatttccgt gtcgccctta ttcccttttt
+      241 tgcggcattt tgccttcctg tttttgctca cccagaaacg ctggtgaaag taaaagatgc
+      301 tgaagatcag ttgggtgcac gagtgggtta catcgaactg gatctcaaca gcggtaagat
+      361 ccttgagagt ttacgccccg aagaacgttt tccaatgatg agcactttta aagttctgct
+      421 atgtggcgcg gtattatccc gtattgacgc cgggcaagag caactcggtc gccgcataca
+      481 ctattctcag aatgacttgg ttgagtactc accagtcaca gaaaagcatc tcacggatgg
+      541 catgacagta agagaattat gcagtgctgc cataaccatg agtgataaca ctgcggccaa
+      601 cttacttctg gcaacgatcg gaggaccgaa ggagctaacc gcttttttgc acaacatggg
+      661 ggatcatgta actcgccttg atcgttggga accggagctg aatgaagcca taccaaacga
+      721 cgagcgtgac accacgatgc ctgtagcaat ggcaacaacg ttgcgcaaac tattaactgg
+      781 cgaactactt actctagctt cccggcaaca attaatagac tggatggagg cggataaagt
+      841 tgcaggatca cttctgcgct cggccctccc ggctggctgg tttattgctg ataaatctgg
+      901 agccggtgag cgtgggtctc gcggtatcat tgcagcactg gggccagatg gtaagccctc
+      961 ccgcatcgta gttatctaca cgacggggag tcaggcaact atggatgaac gaaatagaca
+     1021 gatcgctgag ataggtgcct cactgattaa gcattggtaa tgagggccca aatgtaatca
+     1081 cctggctcac cttcgggtgg gcctttctgc gttgctggcg tttttccata ggctccgccc
+     1141 ccctgacgag catcacaaaa atcgatgctc aagtcagagg tggcgaaacc cgacaggact
+     1201 ataaagatac caggcgtttc cccctggaag ctccctcgtg cgctctcctg ttccgaccct
+     1261 gccgcttacc ggatacctgt ccgcctttct cccttcggga agcgtggcgc tttctcatag
+     1321 ctcacgctgt aggtatctca gttcggtgta ggtcgttcgc tccaagctgg gctgtgtgca
+     1381 cgaacccccc gttcagcccg accgctgcgc cttatccggt aactatcgtc ttgagtccaa
+     1441 cccggtaaga cacgacttat cgccactggc agcagccact ggtaacagga ttagcagagc
+     1501 gaggtatgta ggcggtgcta cagagttctt gaagtggtgg cctaactacg gctacactag
+     1561 aagaacagta tttggtatct gcgctctgct gaagccagtt acctcggaaa aagagttggt
+     1621 agctcttgat ccggcaaaca aaccaccgct ggtagcggtg gtttttttgt ttgcaagcag
+     1681 cagattacgc gcagaaaaaa aggatctcaa gaagatcctt tgattttcta ccgaagaaag
+     1741 gcccacccgt gaaggtgagc cagtgagttg attgcagtcc agttacgctg gagtctgagg
+     1801 ctcgtcctga atgatatcaa gcttgaattc gtt  
+//

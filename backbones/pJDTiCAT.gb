@@ -1,0 +1,62 @@
+LOCUS       pJDTiCAT     2684 bp dsDNA    Circular
+DEFINITION  pJDTiCAT
+COMMENT     This file is best viewed with a free Vector NTI Viewer:
+COMMENT     http://www.informaxinc.com/view/viewer.html
+COMMENT     VNTREPLTYPE|Plasmid|
+COMMENT     VNTEXTCHREPL|Bacteria|
+FEATURES               Location/Qualifiers
+     promoter        143..171
+                     /label=P(LAC)
+     CDS             216..537
+                     /label=LACZ'
+     rep_origin      2501
+                     /label=pMB1_ori
+     CDS             883..1743
+                     /label=ampR
+ORIGIN
+        1 gcgcccaata cgcaaaccgc ctctccccgc gcgttggccg attcattaat gcagctggca 
+       61 cgacaggttt cccgactgga aagcgggcag tgagcgcaac gcaattaatg tgagttagct 
+      121 cactcattag gcaccccagg ctttacactt tatgcttccg gctcgtatgt tgtgtggaat 
+      181 tgtgagcgga taacaatttc acacaggaaa cagctatgac catgattacg ccaagcttgc 
+      241 atgcctgcag gtcgactcta gaggatccgg atgcattcat ggaattcact ggccgtcgtt 
+      301 ttacaacgtc gtgactggga aaaccctggc gttacccaac ttaatcgcct tgcagcacat 
+      361 ccccctttcg ccagctggcg taatagcgaa gaggcccgca ccgatcgccc ttcccaacag 
+      421 ttgcgcagcc tgaatggcga atggcgcctg atgcggtatt ttctccttac gcatctgtgc 
+      481 ggtatttcac accgcatatg gtgcactctc agtacaatct gctctgatgc cgcatagtta 
+      541 agccagcccc gacacccgcc aacacccgct gacgcgccct gacgggcttg tctgctcccg 
+      601 gcatccgctt acagacaagc tgtgaccgtc tccgggagct gcatgtgtca gaggttttca 
+      661 ccgtcatcac cgaaacgcgc gagacgaaag ggcctcgtga tacgcctatt tttataggtt 
+      721 aatgtcatga taataatggt ttcttagacg tcaggtggca cttttcgggg aaatgtgcgc 
+      781 ggaaccccta tttgtttatt tttctaaata cattcaaata tgtatccgct catgagacaa 
+      841 taaccctgat aaatgcttca ataatattga aaaaggaaga gtatgagtat tcaacatttc 
+      901 cgtgtcgccc ttattccctt ttttgcggca ttttgccttc ctgtttttgc tcacccagaa 
+      961 acgctggtga aagtaaaaga tgctgaagat cagttgggtg cacgagtggg ttacatcgaa 
+     1021 ctggatctca acagcggtaa gatccttgag agttttcgcc ccgaagaacg ttttccaatg 
+     1081 atgagcactt ttaaagttct gctatgtggc gcggtattat cccgtattga cgccgggcaa 
+     1141 gagcaactcg gtcgccgcat acactattct cagaatgact tggttgagta ctcaccagtc 
+     1201 acagaaaagc atcttacgga tggcatgaca gtaagagaat tatgcagtgc tgccataacc 
+     1261 atgagtgata acactgcggc caacttactt ctgacaacga tcggaggacc gaaggagcta 
+     1321 accgcttttt tgcacaacat gggggatcat gtaactcgcc ttgatcgttg ggaaccggag 
+     1381 ctgaatgaag ccataccaaa cgacgagcgt gacaccacga tgcctgtagc aatggcaaca 
+     1441 acgttgcgca aactattaac tggcgaacta cttactctag cttcccggca acaattaata 
+     1501 gactggatgg aggcggataa agttgcagga ccacttctgc gctcggccct tccggctggc 
+     1561 tggtttattg ctgataaatc tggagccggt gagcgtgggt ctcgcggtat cattgcagca 
+     1621 ctggggccag atggtaagcc ctcccgtatc gtagttatct acacgacggg gagtcaggca 
+     1681 actatggatg aacgaaatag acagatcgct gagataggtg cctcactgat taagcattgg 
+     1741 taactgtcag accaagttta ctcatatata ctttagattg atttaaaact tcatttttaa 
+     1801 tttaaaagga tctaggtgaa gatccttttt gataatctca tgaccaaaat cccttaacgt 
+     1861 gagttttcgt tccactgagc gtcagacccc gtagaaaaga tcaaaggatc ttcttgagat 
+     1921 cctttttttc tgcgcgtaat ctgctgcttg caaacaaaaa aaccaccgct accagcggtg 
+     1981 gtttgtttgc cggatcaaga gctaccaact ctttttccga aggtaactgg cttcagcaga 
+     2041 gcgcagatac caaatactgt ccttctagtg tagccgtagt taggccacca cttcaagaac 
+     2101 tctgtagcac cgcctacata cctcgctctg ctaatcctgt taccagtggc tgctgccagt 
+     2161 ggcgataagt cgtgtcttac cgggttggac tcaagacgat agttaccgga taaggcgcag 
+     2221 cggtcgggct gaacgggggg ttcgtgcaca cagcccagct tggagcgaac gacctacacc 
+     2281 gaactgagat acctacagcg tgagctatga gaaagcgcca cgcttcccga agggagaaag 
+     2341 gcggacaggt atccggtaag cggcagggtc ggaacaggag agcgcacgag ggagcttcca 
+     2401 gggggaaacg cctggtatct ttatagtcct gtcgggtttc gccacctctg acttgagcgt 
+     2461 cgatttttgt gatgctcgtc aggggggcgg agcctatgga aaaacgccag caacgcggcc 
+     2521 tttttacggt tcctggcctt ttgctggcct tttgctcaca tgttctttcc tgcgttatcc 
+     2581 cctgattctg tggataaccg tattaccgcc tttgagtgag ctgataccgc tcgccgcagc 
+     2641 cgaacgaccg agcgcagcga gtcagtgagc gaggaagcgg aaga 
+//

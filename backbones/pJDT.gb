@@ -1,0 +1,62 @@
+LOCUS       pJDT         2681 bp dsDNA    Circular
+DEFINITION  pJDT cloning vector
+COMMENT     This file is best viewed with a free Vector NTI Viewer:
+COMMENT     http://www.informaxinc.com/view/viewer.html
+COMMENT     VNTREPLTYPE|Plasmid|
+COMMENT     VNTEXTCHREPL|Bacteria|
+FEATURES               Location/Qualifiers
+     promoter        143..171
+                     /label=P(LAC)
+     CDS             216..534
+                     /label=LACZ'
+     rep_origin      2498
+                     /label=pMB1_ori
+     CDS             880..1740
+                     /label=ampR
+ORIGIN
+        1 gcgcccaata cgcaaaccgc ctctccccgc gcgttggccg attcattaat gcagctggca 
+       61 cgacaggttt cccgactgga aagcgggcag tgagcgcaac gcaattaatg tgagttagct 
+      121 cactcattag gcaccccagg ctttacactt tatgcttccg gctcgtatgt tgtgtggaat 
+      181 tgtgagcgga taacaatttc acacaggaaa cagctatgac catgattacg ccaagcttgc 
+      241 atgcctgcag gtcgactcta gaggatccgg atgtcatgga attcactggc cgtcgtttta 
+      301 caacgtcgtg actgggaaaa ccctggcgtt acccaactta atcgccttgc agcacatccc 
+      361 cctttcgcca gctggcgtaa tagcgaagag gcccgcaccg atcgcccttc ccaacagttg 
+      421 cgcagcctga atggcgaatg gcgcctgatg cggtattttc tccttacgca tctgtgcggt 
+      481 atttcacacc gcatatggtg cactctcagt acaatctgct ctgatgccgc atagttaagc 
+      541 cagccccgac acccgccaac acccgctgac gcgccctgac gggcttgtct gctcccggca 
+      601 tccgcttaca gacaagctgt gaccgtctcc gggagctgca tgtgtcagag gttttcaccg 
+      661 tcatcaccga aacgcgcgag acgaaagggc ctcgtgatac gcctattttt ataggttaat 
+      721 gtcatgataa taatggtttc ttagacgtca ggtggcactt ttcggggaaa tgtgcgcgga 
+      781 acccctattt gtttattttt ctaaatacat tcaaatatgt atccgctcat gagacaataa 
+      841 ccctgataaa tgcttcaata atattgaaaa aggaagagta tgagtattca acatttccgt 
+      901 gtcgccctta ttcccttttt tgcggcattt tgccttcctg tttttgctca cccagaaacg 
+      961 ctggtgaaag taaaagatgc tgaagatcag ttgggtgcac gagtgggtta catcgaactg 
+     1021 gatctcaaca gcggtaagat ccttgagagt tttcgccccg aagaacgttt tccaatgatg 
+     1081 agcactttta aagttctgct atgtggcgcg gtattatccc gtattgacgc cgggcaagag 
+     1141 caactcggtc gccgcataca ctattctcag aatgacttgg ttgagtactc accagtcaca 
+     1201 gaaaagcatc ttacggatgg catgacagta agagaattat gcagtgctgc cataaccatg 
+     1261 agtgataaca ctgcggccaa cttacttctg acaacgatcg gaggaccgaa ggagctaacc 
+     1321 gcttttttgc acaacatggg ggatcatgta actcgccttg atcgttggga accggagctg 
+     1381 aatgaagcca taccaaacga cgagcgtgac accacgatgc ctgtagcaat ggcaacaacg 
+     1441 ttgcgcaaac tattaactgg cgaactactt actctagctt cccggcaaca attaatagac 
+     1501 tggatggagg cggataaagt tgcaggacca cttctgcgct cggcccttcc ggctggctgg 
+     1561 tttattgctg ataaatctgg agccggtgag cgtgggtctc gcggtatcat tgcagcactg 
+     1621 gggccagatg gtaagccctc ccgtatcgta gttatctaca cgacggggag tcaggcaact 
+     1681 atggatgaac gaaatagaca gatcgctgag ataggtgcct cactgattaa gcattggtaa 
+     1741 ctgtcagacc aagtttactc atatatactt tagattgatt taaaacttca tttttaattt 
+     1801 aaaaggatct aggtgaagat cctttttgat aatctcatga ccaaaatccc ttaacgtgag 
+     1861 ttttcgttcc actgagcgtc agaccccgta gaaaagatca aaggatcttc ttgagatcct 
+     1921 ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc agcggtggtt 
+     1981 tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt cagcagagcg 
+     2041 cagataccaa atactgtcct tctagtgtag ccgtagttag gccaccactt caagaactct 
+     2101 gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc tgccagtggc 
+     2161 gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa ggcgcagcgg 
+     2221 tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac ctacaccgaa 
+     2281 ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg gagaaaggcg 
+     2341 gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga gcttccaggg 
+     2401 ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact tgagcgtcga 
+     2461 tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa cgcggccttt 
+     2521 ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc gttatcccct 
+     2581 gattctgtgg ataaccgtat taccgccttt gagtgagctg ataccgctcg ccgcagccga 
+     2641 acgaccgagc gcagcgagtc agtgagcgag gaagcggaag a 
+//

@@ -1,0 +1,69 @@
+LOCUS       pJC40        2402 bp dsDNA    Circular
+DEFINITION  T7 expression vector with removable poly HIS epitope tag
+COMMENT     This file is best viewed with a free Vector NTI Viewer:
+COMMENT     http://www.informaxinc.com/view/viewer.html
+COMMENT     VNTREPLTYPE|Plasmid|
+COMMENT     VNTKW|ATCC 87114|
+COMMENT     VNTKW|Updated 12/2/97 MB3|
+COMMENT     VNTKW|poly HIS epitope tag|
+COMMENT     VNTKW|T7 promoter|
+FEATURES               Location/Qualifiers
+     promoter        75..94
+                     /label=T7\promoter
+     RBS             141..146
+                     /label=SD_SEQ
+     misc_feature    214..248
+                     /label=MCS
+     misc_feature    160..189
+                     /label=poly\HIS\10
+     misc_feature    213
+                     /label=XA\cleavage\site
+     CDS             602..1462
+                     /label=ampR
+     rep_origin      2220
+                     /label=pMB1\ori
+     terminator      325..366
+                     /label=TPHI\term
+ORIGIN
+        1 agcgcccaat acgcaaaccg cctctccccg cgcgttggcc gattcattaa tgcaggatct 
+       61 cgatcccgcg aaattaatac gactcactat agggagacca caacggtttc cctctagaaa 
+      121 taattttgtt taactttaag aaggagatat accatgggcc atcatcatca tcatcatcat 
+      181 catcatcaca gcagcggcca tatcgaaggt cgtcatatga agcttgaatt ctcgaggatc 
+      241 ccgggcccta gctaactgat ccggctgcta acaaagccca aaggaagctg agttggctgc 
+      301 tgccaccgct gagcaataac tagcataacc ccttggggcc tctaaacggg tcttgagggg 
+      361 ttttttgctg aaaggaggaa ctatagataa ttcttcttga agacgaaagg gcctcgtgat 
+      421 acgcctattt ttataggtta atgtcatgat aataatggtt tcttagacgt caggtggcac 
+      481 ttttcgggga aatgtgcgcg gaacccctat ttgtttattt ttctaaatac attcaaatat 
+      541 gtatccgctc atgagacaat aaccctgata aatgcttcaa taatattgaa aaaggaagag 
+      601 tatgagtatt caacatttcc gtgtcgccct tattcccttt tttgcggcat tttgccttcc 
+      661 tgtttttgct cacccagaaa cgctggtgaa agtaaaagat gctgaagatc agttgggtgc 
+      721 acgagtgggt tacatcgaac tggatctcaa cagcggtaag atccttgaga gttttcgccc 
+      781 cgaagaacgt tttccaatga tgagcacttt taaagttctg ctatgtggcg cggtattatc 
+      841 ccgtgttgac gccgggcaag agcaactcgg tcgccgcata cactattctc agaatgactt 
+      901 ggttgagtac tcaccagtca cagaaaagca tcttacggat ggcatgacag taagagaatt 
+      961 atgcagtgct gccataagca tgagtgataa cactgcggcc aacttacttc tgacaacgat 
+     1021 cggaggaccg aaggagctaa ccgctttttt tcacaacatg ggggatcatg taactcgcct 
+     1081 tgatcgttgg gaaccggagc tgaatgaagc cataccaaac gacgagcgtg acaccacgat 
+     1141 gcctgtagca atggcaacaa cgttgcgcaa actattaact ggcgaactac ttactctagc 
+     1201 ttcccggcaa caattaatag actggatgga ggcggataaa gttgcaggac cacttctgcg 
+     1261 ctcggccctt ccggctggct ggtttattgc tgataaatct ggagccggtg agcgtgggtc 
+     1321 tcgcggtatc attgcagcac tggggccaga tggtaagccc tcccgtatcg tagttatcta 
+     1381 cacgacgggc agtcaggcaa ctatggatga acgaaataga cagatcgctg agataggtgc 
+     1441 ctcactgatt aagcattggt aactgtcaga ccaagtttac tcatatatac tttagattga 
+     1501 tttaaaactt catttttaat ttaaaaggat ctaggtgaag atcctttttg ataatctcat 
+     1561 gaccaaaatc ccttaacgtg agttttcgtt ccactgagcg tcagaccccg tagaaaagat 
+     1621 caaaggatct tcttgagatc ctttttttct gcgcgtaatc tgctgcttgc aaacaaaaaa 
+     1681 accaccgcta ccagcggtgg tttgtttgcc ggatcaagag ctaccaactc tttttccgaa 
+     1741 ggtaactggc ttcagcagag cgcagatacc aaatactgtc cttctagtgt agccgtagtt 
+     1801 aggccaccac ttcaagaact ctgtagcacc gcctacatac ctcgctctgc taatcctgtt 
+     1861 accagtggct gctgccagtg gcgataagtc gtgtcttacc gggttggact caagacgata 
+     1921 gttaccggat aaggcgcagc ggtcgggctg aacggggggt tcgtgcacac agcccagctt 
+     1981 ggagcgaacg acctacaccg aactgagata cctacagcgt gagcattgag aaagcgccac 
+     2041 gcttcccgaa gggagaaagg cggacaggta tccggtaagc ggcagggtcg gaacaggaga 
+     2101 gcgcacgagg gagcttccag gggggaacgc ctggtatctt tatagtcctg tcgggtttcg 
+     2161 ccacctctga cttgagcgtc gatttttgtg atgctcgtca ggggggccga gcctatggaa 
+     2221 aaacgccagc aacgcggcct ttttacggtt cctggccttt tgctggcctt ttgctcacat 
+     2281 gttctttcct gcgttatccc ctgattctgt ggataaccgt attaccgcct ttgagtgagc 
+     2341 tgataccgct cgccgcagcc gaacgaccga gcgcagcgag tcagtgagcg aggaagcgga 
+     2401 ag 
+//

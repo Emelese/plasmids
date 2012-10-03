@@ -1,0 +1,47 @@
+LOCUS       pJRTAC99     1392 bp dsDNA    Circular
+DEFINITION  E.coli synthetic vector sequence pJRtac99
+COMMENT     This file is best viewed with a free Vector NTI Viewer:
+COMMENT     http://www.informaxinc.com/view/viewer.html
+COMMENT     VNTREPLTYPE|Plasmid|
+COMMENT     VNTEXTCHREPL|Bacteria|
+COMMENT     VNTKW|ATCC 87018|
+COMMENT     VNTKW|ESCHERICHIA COLI|
+COMMENT     VNTKW|CHLORAMPHENICOL|
+COMMENT     VNTKW|FUSION PROTEIN|
+FEATURES               Location/Qualifiers
+     promoter        20..115
+     misc_feature    752..798
+                     /note="poly-linker region"
+                     /label=MCS
+     rep_origin      1390
+                     /note="origin of replication"
+                     /label=PMB1
+     CDS             121..827
+                     /note="cat chloramphenicol acetyltransferase, cmlR chloramphenicol resistance Tn9"
+                     /label=CM(R)
+ORIGIN
+        1 acgccagcaa cgcggcccga agcttactcc ccatccccct gttgacaatt aatcatcggc 
+       61 tcgtataatg tgtggaattg tgagcggata acaatttcac acaggaaaca ggatcgatcc 
+      121 atggagaaaa aaatcactgg atataccacc gttgatatat cccaatggca tcgtaaagaa 
+      181 cattttgagg catttcagtc agttgctcaa tgtacctata accagaccgt tcagctggat 
+      241 attacggcct ttttaaagac cgtaaagaaa aataagcaca agttttatcc ggcctttatt 
+      301 cacattcttg cccgcctgat gaatgctcat ccggaattcc gtatggcaat gaaagacggt 
+      361 gagctggtga tatgggatag tgttcaccct tgttacaccg ttttccatga gcaaactgaa 
+      421 acgttttcat cgctctggag tgaataccac gacgatttcc ggcagtttct acacatatat 
+      481 tcgcaagatg tggcgtgtta cggtgaaaac ctggcctatt tccctaaagg gtttattgag 
+      541 aatatgtttt tcgtctcagc caatccctgg gtgagtttca ccagttttga tttaaacgtg 
+      601 gccaatatgg acaacttctt cgcccccgtt ttcacaatgg gcaaatatta tacgcaaggc 
+      661 gacaaggtgc tgatgccgct ggcgattcag gttcatcatg ccgtttgtga tggcttccat 
+      721 gtcggcagaa tgcttaatga attacaacag tactgcagcg tcgaccaggg acccgggtaa 
+      781 tgaagagtaa ctagatctac tgcgatgagt ggcagggcgg ggcgtaattt ttttaaggca 
+      841 gttattggtg cccttaaacg cctggtgcta cgcctgaata agtgataata agcggatgaa 
+      901 tggcagaaat tcgaactggc ttcagcagag cgcagatacc aaatactgtc cttctagtgt 
+      961 agccgtagtt aggccaccac ttcaagaact ctgtagcacc gcctacatac ctcgctctgc 
+     1021 taatcctgtt accagtggct gctgccagtg gcgataagtc gtgtcttacc gggttggact 
+     1081 caagacgata gttaccggat aaggcgcagc ggtcgggctg aacggggggt tcgtgcacac 
+     1141 agcccagctt ggagcgaacg acctacaccg aactgagata cctacagcgt gagcattgag 
+     1201 aaagcgccac gcttcccgaa gggagaaagg cggacaggta tccggtaagc ggcagggtcg 
+     1261 gaacaggaga gcgcacgagg gagcttccag ggggaaacgc ctggtatctt tatagtcctg 
+     1321 tcgggtttcg ccacctctga cttgagcgtc gatttttgtg atgctcgtca ggggggcgga 
+     1381 gcctatggaa aa 
+//

@@ -1,23 +1,24 @@
-LOCUS       pJD520                  9286 bp ds-DNA     linear       20-SEP-2011
+LOCUS       pJD520                  9286 bp ds-DNA     circular     05-OCT-2011
 DEFINITION  .
 ACCESSION   
 VERSION     
 SOURCE      .
   ORGANISM  .
 COMMENT     Yeast dual luciferase plasmid containing the SPR6 PRF signal.
+            Viral context.
 COMMENT     
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
-     misc_feature    complement(7020..7283)
-                     /label=CYC Terminator
-                     /ApEinfo_fwdcolor=#800000
-                     /ApEinfo_revcolor=#400040
+     rep_origin      1670..2352
+                     /label=ColE1 origin
+                     /ApEinfo_fwdcolor=gray50
+                     /ApEinfo_revcolor=gray50
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     misc_feature    complement(8067..8870)
-                     /label=Ura3
-                     /ApEinfo_fwdcolor=#408080
-                     /ApEinfo_revcolor=#004040
+     rep_origin      7498..7804
+                     /label=F1 ori
+                     /ApEinfo_fwdcolor=gray50
+                     /ApEinfo_revcolor=gray50
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      misc_feature    4312..5252
@@ -36,12 +37,6 @@ FEATURES             Location/Qualifiers
                      /label=URA3
                      /ApEinfo_fwdcolor=#00ffff
                      /ApEinfo_revcolor=#00ffff
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     rep_origin      complement(73..583)
-                     /label=CEN-ARS pRS
-                     /ApEinfo_fwdcolor=#ff6fcf
-                     /ApEinfo_revcolor=#ff6fcf
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      misc_feature    5448..7013
@@ -81,13 +76,14 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      rep_origin      1670..2352
-                     /label=ColE1 origin
+                     /label=ColE1 origin (from pBR322)
                      /ApEinfo_fwdcolor=gray50
                      /ApEinfo_revcolor=gray50
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
-     rep_origin      7498..7804
-                     /label=F1 ori
+     rep_origin      complement(7486..7926)
+                     /label=F1 ori(1)
+                     /ApEinfo_label=F1 ori
                      /ApEinfo_fwdcolor=gray50
                      /ApEinfo_revcolor=gray50
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
@@ -100,14 +96,14 @@ FEATURES             Location/Qualifiers
                      width 5 offset 0
      CDS             7408..7476
                      /label=LacZ alpha
-                     /ApEinfo_fwdcolor=#6495ed
-                     /ApEinfo_revcolor=#6495ed
+                     /ApEinfo_fwdcolor=cornflower blue
+                     /ApEinfo_revcolor=cornflower blue
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      misc_binding    2692..2714
                      /label=LacO
-                     /ApEinfo_fwdcolor=#6495ed
-                     /ApEinfo_revcolor=#6495ed
+                     /ApEinfo_fwdcolor=cornflower blue
+                     /ApEinfo_revcolor=cornflower blue
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
      CDS             913..1572
@@ -116,10 +112,58 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor=yellow
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
+     rep_origin      complement(73..583)
+                     /label=CEN-ARS pRS
+                     /ApEinfo_fwdcolor=#ff6fcf
+                     /ApEinfo_revcolor=#ff6fcf
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
      promoter        2794..4275
                      /label=ADH1 promoter
-                     /ApEinfo_fwdcolor=#0080c0
-                     /ApEinfo_revcolor=#0080c0
+                     /ApEinfo_fwdcolor=#ff0000
+                     /ApEinfo_revcolor=#ff0000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    4312..5252
+                     /label=Renilla luciferase (Renilla reniformis)
+                     /ApEinfo_fwdcolor=#be5413
+                     /ApEinfo_revcolor=#00d000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    7020..7283
+                     /label=CYC Terminator
+                     /ApEinfo_fwdcolor=#6600a3
+                     /ApEinfo_revcolor=#006000
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    645..673
+                     /label=AmpR promoter
+                     /ApEinfo_fwdcolor=#88ce03
+                     /ApEinfo_revcolor=green
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    9236..9258
+                     /label=pGEX_3_primer
+                     /ApEinfo_fwdcolor=#0063ff
+                     /ApEinfo_revcolor=green
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    5371..7013
+                     /label=Firefly luciferase (Photinus pyralis)
+                     /ApEinfo_fwdcolor=#aba600
+                     /ApEinfo_revcolor=green
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    complement(8067..8870)
+                     /label=Ura3
+                     /ApEinfo_fwdcolor=#262c2e
+                     /ApEinfo_revcolor=green
+                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0
+     misc_feature    2696..2706
+                     /label=Lac Operator
+                     /ApEinfo_fwdcolor=#930600
+                     /ApEinfo_revcolor=green
                      /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0
 ORIGIN

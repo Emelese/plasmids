@@ -1,0 +1,62 @@
+LOCUS       pJDTiCA      2683 bp dsDNA    Circular
+DEFINITION  pJDTiCA
+COMMENT     This file is best viewed with a free Vector NTI Viewer:
+COMMENT     http://www.informaxinc.com/view/viewer.html
+COMMENT     VNTREPLTYPE|Plasmid|
+COMMENT     VNTEXTCHREPL|Bacteria|
+FEATURES               Location/Qualifiers
+     promoter        143..171
+                     /label=P(LAC)
+     CDS             216..536
+                     /label=LACZ'
+     rep_origin      2500
+                     /label=pMB1_ori
+     CDS             882..1742
+                     /label=ampR
+ORIGIN
+        1 gcgcccaata cgcaaaccgc ctctccccgc gcgttggccg attcattaat gcagctggca 
+       61 cgacaggttt cccgactgga aagcgggcag tgagcgcaac gcaattaatg tgagttagct 
+      121 cactcattag gcaccccagg ctttacactt tatgcttccg gctcgtatgt tgtgtggaat 
+      181 tgtgagcgga taacaatttc acacaggaaa cagctatgac catgattacg ccaagcttgc 
+      241 atgcctgcag gtcgactcta gaggatccgg atgcatcatg gaattcactg gccgtcgttt 
+      301 tacaacgtcg tgactgggaa aaccctggcg ttacccaact taatcgcctt gcagcacatc 
+      361 cccctttcgc cagctggcgt aatagcgaag aggcccgcac cgatcgccct tcccaacagt 
+      421 tgcgcagcct gaatggcgaa tggcgcctga tgcggtattt tctccttacg catctgtgcg 
+      481 gtatttcaca ccgcatatgg tgcactctca gtacaatctg ctctgatgcc gcatagttaa 
+      541 gccagccccg acacccgcca acacccgctg acgcgccctg acgggcttgt ctgctcccgg 
+      601 catccgctta cagacaagct gtgaccgtct ccgggagctg catgtgtcag aggttttcac 
+      661 cgtcatcacc gaaacgcgcg agacgaaagg gcctcgtgat acgcctattt ttataggtta 
+      721 atgtcatgat aataatggtt tcttagacgt caggtggcac ttttcgggga aatgtgcgcg 
+      781 gaacccctat ttgtttattt ttctaaatac attcaaatat gtatccgctc atgagacaat 
+      841 aaccctgata aatgcttcaa taatattgaa aaaggaagag tatgagtatt caacatttcc 
+      901 gtgtcgccct tattcccttt tttgcggcat tttgccttcc tgtttttgct cacccagaaa 
+      961 cgctggtgaa agtaaaagat gctgaagatc agttgggtgc acgagtgggt tacatcgaac 
+     1021 tggatctcaa cagcggtaag atccttgaga gttttcgccc cgaagaacgt tttccaatga 
+     1081 tgagcacttt taaagttctg ctatgtggcg cggtattatc ccgtattgac gccgggcaag 
+     1141 agcaactcgg tcgccgcata cactattctc agaatgactt ggttgagtac tcaccagtca 
+     1201 cagaaaagca tcttacggat ggcatgacag taagagaatt atgcagtgct gccataacca 
+     1261 tgagtgataa cactgcggcc aacttacttc tgacaacgat cggaggaccg aaggagctaa 
+     1321 ccgctttttt gcacaacatg ggggatcatg taactcgcct tgatcgttgg gaaccggagc 
+     1381 tgaatgaagc cataccaaac gacgagcgtg acaccacgat gcctgtagca atggcaacaa 
+     1441 cgttgcgcaa actattaact ggcgaactac ttactctagc ttcccggcaa caattaatag 
+     1501 actggatgga ggcggataaa gttgcaggac cacttctgcg ctcggccctt ccggctggct 
+     1561 ggtttattgc tgataaatct ggagccggtg agcgtgggtc tcgcggtatc attgcagcac 
+     1621 tggggccaga tggtaagccc tcccgtatcg tagttatcta cacgacgggg agtcaggcaa 
+     1681 ctatggatga acgaaataga cagatcgctg agataggtgc ctcactgatt aagcattggt 
+     1741 aactgtcaga ccaagtttac tcatatatac tttagattga tttaaaactt catttttaat 
+     1801 ttaaaaggat ctaggtgaag atcctttttg ataatctcat gaccaaaatc ccttaacgtg 
+     1861 agttttcgtt ccactgagcg tcagaccccg tagaaaagat caaaggatct tcttgagatc 
+     1921 ctttttttct gcgcgtaatc tgctgcttgc aaacaaaaaa accaccgcta ccagcggtgg 
+     1981 tttgtttgcc ggatcaagag ctaccaactc tttttccgaa ggtaactggc ttcagcagag 
+     2041 cgcagatacc aaatactgtc cttctagtgt agccgtagtt aggccaccac ttcaagaact 
+     2101 ctgtagcacc gcctacatac ctcgctctgc taatcctgtt accagtggct gctgccagtg 
+     2161 gcgataagtc gtgtcttacc gggttggact caagacgata gttaccggat aaggcgcagc 
+     2221 ggtcgggctg aacggggggt tcgtgcacac agcccagctt ggagcgaacg acctacaccg 
+     2281 aactgagata cctacagcgt gagctatgag aaagcgccac gcttcccgaa gggagaaagg 
+     2341 cggacaggta tccggtaagc ggcagggtcg gaacaggaga gcgcacgagg gagcttccag 
+     2401 ggggaaacgc ctggtatctt tatagtcctg tcgggtttcg ccacctctga cttgagcgtc 
+     2461 gatttttgtg atgctcgtca ggggggcgga gcctatggaa aaacgccagc aacgcggcct 
+     2521 ttttacggtt cctggccttt tgctggcctt ttgctcacat gttctttcct gcgttatccc 
+     2581 ctgattctgt ggataaccgt attaccgcct ttgagtgagc tgataccgct cgccgcagcc 
+     2641 gaacgaccga gcgcagcgag tcagtgagcg aggaagcgga aga 
+//

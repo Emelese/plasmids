@@ -1,0 +1,65 @@
+LOCUS       pC194        2910 bp dsDNA    Circular
+DEFINITION  Staphylococcus aureus plasmid pC194. Includes gene for chloramphenicol acetyl transferase.
+COMMENT     This file is best viewed with a free Vector NTI Viewer:
+COMMENT     http://www.informaxinc.com/view/viewer.html
+COMMENT     VNTREPLTYPE|Plasmid|
+COMMENT     VNTEXTCHREPL|Bacteria|
+COMMENT     VNTKW|ATCC 37034|
+COMMENT     VNTKW|STAPHYLOCOCCUS AUREUS|
+COMMENT     VNTKW|BACILLUS SPP|
+COMMENT     VNTKW|CHLORAMPHENICOL|
+FEATURES               Location/Qualifiers
+     CDS             1260..1910
+                     /note="CAT chloramphenicol acetyltransferase, cmlR chloramphenicol resistance"
+                     /label=CM(R)
+ORIGIN
+        1 gatcaatttc ttttaagtaa tctaaatccc cattttttaa tttcttttta gcctctttaa 
+       61 ataatcctga ataaactaat acctgtttac ctttaagtga tttataaaat gcatcaaaga 
+      121 ctttttgatt tatttattaa ataatcacta tctttaccag aatacttagc catttcatat 
+      181 aattctttat tattattttg tcttattttt tgaacttgaa cttgtgttat ttctgaaatg 
+      241 cccgttacat cacgccataa atctaaccat tcttgttggc taatataata tcttttatct 
+      301 gtgaaatacg atttatttac tgcaattaac acatgaaaat gaggattata atcatctctt 
+      361 tttttattat atgtaatctc taacttacga acatatccct ttataacact acctactttt 
+      421 tttctcttta taagttttct aaaagaatta ttataacgtt ttatttcatt ttctaattca 
+      481 tcactcatta cattaggtgt agtcaaagtt aaaaagataa actccttttt ctcttgctgc 
+      541 ttaatatatt gcatcatcaa agataaaccc aatgcatctt ttctagcttt tctccaagca 
+      601 cagacaggac aaaatcgatt tttacaagaa ttagctttat ataatttctg tttttctaaa 
+      661 gttttatcag ctacaaaaga cagaaatgta ttgcaatctt caactaaatc catttgattc 
+      721 tctccaatat gacgtttaat aaatttctga aatacttgat ttctttgttt tttctcagta 
+      781 tacttttcca tgttataaca cataaaaaca acttagtttt cacaaactat gacaataaaa 
+      841 aaagttgctt tttccccttt ctatgtatgt tttttactag tcatttaaaa cgatacatta 
+      901 ataggtacga aaaagcaact ttttttgcgc ttaaaaccag tcataccaat aacttaaggg 
+      961 taactagcct cgccggcaat agttaccctt attatcaaga taagaaagaa aaggattttt 
+     1021 cgctacgctc aaatccttta aaaaaacaca aaagaccaca ttttttaatg tggtctttat 
+     1081 tcttcaacta aagcacccat tagttcaaca aacgaaaatt ggataaagtg ggatattttt 
+     1141 aaaatatata tttatgttac agtaatattg acttttaaaa aaggattgat tctaatgaag 
+     1201 aaagcagaca agtaagcctc ctaaattcac tttagataaa aatttaggag gcatatcaaa 
+     1261 tgaactttaa taaaattgat ttagacaatt ggaagagaaa agagatattt aatcattatt 
+     1321 tgaaccaaca aacgactttt agtataacca cagaaattga tattagtgtt ttataccgaa 
+     1381 acataaaaca agaaggatat aaattttacc ctgcatttat tttcttagtg acaagggtga 
+     1441 taaactcaaa tacagctttt agaactggtt acaatagcga cggagagtta ggttattggg 
+     1501 ataagttaga gccactttat acaatttttg atggtgtatc taaaacattc tctggtattt 
+     1561 ggactcctgt aaagaatgac ttcaaagagt tttatgattt atacctttct gatgtagaga 
+     1621 aatataatgg ttcggggaaa ttgtttccca aaacacctat acctgaaaat gctttttctc 
+     1681 tttctattat tccatggact tcatttactg ggtttaactt aaatatcaat aataatagta 
+     1741 attaccttct acccattatt acagcaggaa aattcattaa taaaggtaat tcaatatatt 
+     1801 taccgctatc tttacaggta catcattctg tttgtgatgg ttatcatgca ggattgttta 
+     1861 tgaactctat tcaggaattg tcagataggc ctaatgactg gcttttataa tatgagataa 
+     1921 tgccgactgt actttttaca gtcggttttc taatgtcact aacctgcccc gttagttgaa 
+     1981 gaaggttttt atattacagc tccagatcca tatccttctt tttctgaacc gacttctcct 
+     2041 ttttcgcttc tttattccaa ttgctttatt gacgttgagc ctcggaaccc ttaacaatcc 
+     2101 caaaacttgt cgaatggtcg gcttaatagc tcacgctatg ccgacattcg tctgcaagtt 
+     2161 tagttaaggg ttcttctcaa cgcacaataa attttctcgg cataaatgcg tggtctaatt 
+     2221 tttattttta ataaccttga tagcaaaaaa tgccattcca atacaaaacc acatacctat 
+     2281 aatcgataac cacataacag tcataaaacc actccttttt aacaaacttt atcacaagaa 
+     2341 atatttaaat tttaaatgcc tttattttga attttaaggg gcattttaaa gatttagggg 
+     2401 taaatcatat agttttatgc ctaaaaacct acagaagctt ttaaaaagca aatatgagcc 
+     2461 aaataaatat attctaattc tacaaacaaa aatttgagca aattcagtgt cgatttttta 
+     2521 agacactgcc cagttacatg caaattaaaa ttttcatgat tttttatagt tcctaacagg 
+     2581 gttaaaattt gtataacgaa agtataatgt ttatataacg ttagtataat aaagcatttt 
+     2641 aacattatac ttttgataat cgtttatcgt cgtcatcaca ataactttta aaatactcgt 
+     2701 gcataattca cgctgacctc ccaataacta catggtgtta tcgggaggtc agctgttagc 
+     2761 acttatattt tgttattgtt cttcctcgat ttcgtctatc attttgtgat taatttctct 
+     2821 tttttcttgt tctgttaagt cataaagttc actagctaaa tactcttttt gtttccaaat 
+     2881 ataaaaaatt tgatagatat attacggttg 
+//

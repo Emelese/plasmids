@@ -1,0 +1,11 @@
+LOCUS                   pJD565           3 bp ds-DNA   circular     25-JUN-2010
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     Documented only as "Telomerase mutant genes from J. Berman."
+COMMENT     ApEinfo:methylated:1
+ORIGIN
+        1 ATG     
+//

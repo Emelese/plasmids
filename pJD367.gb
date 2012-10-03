@@ -1,0 +1,139 @@
+LOCUS                   pJD367        3470 bp ds-DNA   linear       19-AUG-2009
+DEFINITION  pBlueScript SK+
+ACCESSION    
+KEYWORDS    
+  ORGANISM  other sequences; artificial sequences; vectors.
+COMMENT     An attempt at reconstructing pJD367.  Not sure what is going on
+            here.
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     rep_origin      complement(138..444)
+                     /label=f1_origin
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     misc_feature    complement(462..622)
+                     /label=lacZ_a
+                     /ApEinfo_fwdcolor=#004000
+                     /ApEinfo_revcolor=#e1031e
+     misc_feature    588..610
+                     /label=M13_pUC_fwd_primer
+                     /ApEinfo_fwdcolor=#004000
+                     /ApEinfo_revcolor=#e1031e
+     misc_feature    603..619
+                     /label=M13_forward20_primer
+                     /ApEinfo_fwdcolor=#004000
+                     /ApEinfo_revcolor=#e1031e
+     promoter        626..644
+                     /label=T7_promoter
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     misc_feature    1152..1168
+                     /label=pBluescriptKS_primer
+                     /ApEinfo_fwdcolor=#004000
+                     /ApEinfo_revcolor=#e1031e
+     misc_feature    complement(1203..1219)
+                     /label=pBluescriptSK_primer
+                     /ApEinfo_fwdcolor=#004000
+                     /ApEinfo_revcolor=#e1031e
+     promoter        complement(1284..1303)
+                     /label=T3_promoter
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     misc_feature    complement(1320..1338)
+                     /label=M13_reverse_primer
+                     /ApEinfo_fwdcolor=#004000
+                     /ApEinfo_revcolor=#e1031e
+     misc_feature    complement(1337..1359)
+                     /label=M13_pUC_rev_primer
+                     /ApEinfo_fwdcolor=#004000
+                     /ApEinfo_revcolor=#e1031e
+     promoter        complement(1373..1402)
+                     /label=lac_promoter
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     rep_origin      complement(1711..2330)
+                     /label=pBR322_origin
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     CDS             complement(2485..3345)
+                     /gene="Ampicillin"
+                     /note="ORF frame 2"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGY
+                     IELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVE
+                     YSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRL
+                     DRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPL
+                     LRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIA
+                     EIGASLIKHW*"
+                     /label=Ampicillin
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     gene            complement(2485..3345)
+                     /gene="Ampicillin"
+                     /label=Ampicillin(1)
+                     /ApEinfo_label=Ampicillin
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+     promoter        complement(3387..3415)
+                     /label=AmpR_promoter
+                     /ApEinfo_fwdcolor=pink
+                     /ApEinfo_revcolor=pink
+ORIGIN
+        1 CACCTAAATT GTAAGCGTTA ATATTTTGTT AAAATTCGCG TTAAATTTTT GTTAAATCAG
+       61 CTCATTTTTT AACCAATAGG CCGAAATCGG CAAAATCCCT TATAAATCAA AAGAATAGAC
+      121 CGAGATAGGG TTGAGTGTTG TTCCAGTTTG GAACAAGAGT CCACTATTAA AGAACGTGGA
+      181 CTCCAACGTC AAAGGGCGAA AAACCGTCTA TCAGGGCGAT GGCCCACTAC GTGAACCATC
+      241 ACCCTAATCA AGTTTTTTGG GGTCGAGGTG CCGTAAAGCA CTAAATCGGA ACCCTAAAGG
+      301 GAGCCCCCGA TTTAGAGCTT GACGGGGAAA GCCGGCGAAC GTGGCGAGAA AGGAAGGGAA
+      361 GAAAGCGAAA GGAGCGGGCG CTAGGGCGCT GGCAAGTGTA GCGGTCACGC TGCGCGTAAC
+      421 CACCACACCC GCCGCGCTTA ATGCGCCGCT ACAGGGCGCG TCCCATTCGC CATTCAGGCT
+      481 GCGCAACTGT TGGGAAGGGC GATCGGTGCG GGCCTCTTCG CTATTACGCC AGCTGGCGAA
+      541 AGGGGGATGT GCTGCAAGGC GATTAAGTTG GGTAACGCCA GGGTTTTCCC AGTCACGACG
+      601 TTGTAAAACG ACGGCCAGTG AATTGTAATA CGACTCACTA TAGGGCGAAT TGGGTACCca
+      661 tggtgcgcat atgggtaatt cccattatct ttttggcaac tacagtatga cctgtaatgc
+      721 ccggagtgga tcagaactat caagggctgc ttgcatagca tatctagcct gcccaaattc
+      781 aatgttcgcc attggtggta tactcatgaa tttgctcagg ttagcatagt atgagactgc
+      841 caaaccctta taggctttgt acattgtcct ttcccattcc gacttgttag cgaattcatt
+      901 cttcttagat gttatcctag ccttacgttt cagagctata gtgctcctac tccctctagc
+      961 tacggcatct ttaatcttat taaattcgag tcgttctccg aaatttttcc agactttata
+     1021 agcataatca tttacccctg gccaaaatga tggatcatct atttcgtatg gtatttcata
+     1081 tgcttcattg tctgttatta tcttagtttc aaccggtgcc caggtatcag tcgagatacc
+     1141 gccacacacc CTCGAGGTCG ACGGTATCGA TAAGCTTGAT ATCGAATTCC TGCAGCCCGG
+     1201 GGGATCCACT AGTTCTAGAa gttatatgaa tttaaaaatt tttttcttct atagtgtaac
+     1261 ctaaatGAGC TCCAGCTTTT GTTCCCTTTA GTGAGGGTTA ATTTCGAGCT TGGCGTAATC
+     1321 ATGGTCATAG CTGTTTCCTG TGTGAAATTG TTATCCGCTC ACAATTCCAC ACAACATACG
+     1381 AGCCGGAAGC ATAAAGTGTA AAGCCTGGGG TGCCTAATGA GTGAGCTAAC TCACATTAAT
+     1441 TGCGTTGCGC TCACTGCCCG CTTTCCAGTC GGGAAACCTG TCGTGCCAGC TGCATTAATG
+     1501 AATCGGCCAA CGCGCGGGGA GAGGCGGTTT GCGTATTGGG CGCTCTTCCG CTTCCTCGCT
+     1561 CACTGACTCG CTGCGCTCGG TCGTTCGGCT GCGGCGAGCG GTATCAGCTC ACTCAAAGGC
+     1621 GGTAATACGG TTATCCACAG AATCAGGGGA TAACGCAGGA AAGAACATGT GAGCAAAAGG
+     1681 CCAGCAAAAG GCCAGGAACC GTAAAAAGGC CGCGTTGCTG GCGTTTTTCC ATAGGCTCCG
+     1741 CCCCCCTGAC GAGCATCACA AAAATCGACG CTCAAGTCAG AGGTGGCGAA ACCCGACAGG
+     1801 ACTATAAAGA TACCAGGCGT TTCCCCCTGG AAGCTCCCTC GTGCGCTCTC CTGTTCCGAC
+     1861 CCTGCCGCTT ACCGGATACC TGTCCGCCTT TCTCCCTTCG GGAAGCGTGG CGCTTTCTCA
+     1921 TAGCTCACGC TGTAGGTATC TCAGTTCGGT GTAGGTCGTT CGCTCCAAGC TGGGCTGTGT
+     1981 GCACGAACCC CCCGTTCAGC CCGACCGCTG CGCCTTATCC GGTAACTATC GTCTTGAGTC
+     2041 CAACCCGGTA AGACACGACT TATCGCCACT GGCAGCAGCC ACTGGTAACA GGATTAGCAG
+     2101 AGCGAGGTAT GTAGGCGGTG CTACAGAGTT CTTGAAGTGG TGGCCTAACT ACGGCTACAC
+     2161 TAGAAGGACA GTATTTGGTA TCTGCGCTCT GCTGAAGCCA GTTACCTTCG GAAAAAGAGT
+     2221 TGGTAGCTCT TGATCCGGCA AACAAACCAC CGCTGGTAGC GGTGGTTTTT TTGTTTGCAA
+     2281 GCAGCAGATT ACGCGCAGAA AAAAAGGATC TCAAGAAGAT CCTTTGATCT TTTCTACGGG
+     2341 GTCTGACGCT CAGTGGAACG AAAACTCACG TTAAGGGATT TTGGTCATGA GATTATCAAA
+     2401 AAGGATCTTC ACCTAGATCC TTTTAAATTA AAAATGAAGT TTTAAATCAA TCTAAAGTAT
+     2461 ATATGAGTAA ACTTGGTCTG ACAGTTACCA ATGCTTAATC AGTGAGGCAC CTATCTCAGC
+     2521 GATCTGTCTA TTTCGTTCAT CCATAGTTGC CTGACTCCCC GTCGTGTAGA TAACTACGAT
+     2581 ACGGGAGGGC TTACCATCTG GCCCCAGTGC TGCAATGATA CCGCGAGACC CACGCTCACC
+     2641 GGCTCCAGAT TTATCAGCAA TAAACCAGCC AGCCGGAAGG GCCGAGCGCA GAAGTGGTCC
+     2701 TGCAACTTTA TCCGCCTCCA TCCAGTCTAT TAATTGTTGC CGGGAAGCTA GAGTAAGTAG
+     2761 TTCGCCAGTT AATAGTTTGC GCAACGTTGT TGCCATTGCT ACAGGCATCG TGGTGTCACG
+     2821 CTCGTCGTTT GGTATGGCTT CATTCAGCTC CGGTTCCCAA CGATCAAGGC GAGTTACATG
+     2881 ATCCCCCATG TTGTGCAAAA AAGCGGTTAG CTCCTTCGGT CCTCCGATCG TTGTCAGAAG
+     2941 TAAGTTGGCC GCAGTGTTAT CACTCATGGT TATGGCAGCA CTGCATAATT CTCTTACTGT
+     3001 CATGCCATCC GTAAGATGCT TTTCTGTGAC TGGTGAGTAC TCAACCAAGT CATTCTGAGA
+     3061 ATAGTGTATG CGGCGACCGA GTTGCTCTTG CCCGGCGTCA ATACGGGATA ATACCGCGCC
+     3121 ACATAGCAGA ACTTTAAAAG TGCTCATCAT TGGAAAACGT TCTTCGGGGC GAAAACTCTC
+     3181 AAGGATCTTA CCGCTGTTGA GATCCAGTTC GATGTAACCC ACTCGTGCAC CCAACTGATC
+     3241 TTCAGCATCT TTTACTTTCA CCAGCGTTTC TGGGTGAGCA AAAACAGGAA GGCAAAATGC
+     3301 CGCAAAAAAG GGAATAAGGG CGACACGGAA ATGTTGAATA CTCATACTCT TCCTTTTTCA
+     3361 ATATTATTGA AGCATTTATC AGGGTTATTG TCTCATGAGC GGATACATAT TTGAATGTAT
+     3421 TTAGAAAAAT AAACAAATAG GGGTTCCGCG CACATTTCCC CGAAAAGTGC 
+//

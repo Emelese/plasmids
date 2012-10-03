@@ -1,177 +1,124 @@
-LOCUS       pJD376                  9484 bp ds-DNA     circular     20-SEP-2011
+LOCUS                   pJD376        9484 bp ds-DNA   circular     16-MAY-2011
 DEFINITION  .
 ACCESSION   
 VERSION     
 SOURCE      .
   ORGANISM  .
-COMMENT     pJD376 attempted reconstruction from trey.  There is absolutely
-            noway that this is perfectly correct.  This was reconstructed
-            usingthe information found in Dinman and Wickner's 1991 paper as
-            well asHarger's 2003 paper.  Someone needs to sequence this with
-            thep2luci/dual lux primer and see exactly what bases are in this
-            MCS.This is now confirmed via Harger's notebook.
-COMMENT     
+COMMENT     pJD376 attempted reconstruction from trey.  There is absolutely no
+            way that this is perfectly correct.  This was reconstructed using
+            the information found in Dinman and Wickner's 1991 paper as well as
+            Harger's 2003 paper.  Someone needs to sequence this with the
+            p2luci/dual lux primer and see exactly what bases are in this MCS.
+            This is now confirmed via Harger's notebook.
 COMMENT     ApEinfo:methylated:1
 FEATURES             Location/Qualifiers
      misc_feature    complement(8265..9068)
                      /label=URA3
                      /ApEinfo_fwdcolor=#0000ff
                      /ApEinfo_revcolor=#000040
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
+     rep_origin      1673..2355
+                     /label=ColE1 origin
+                     /ApEinfo_fwdcolor=gray50
+                     /ApEinfo_revcolor=gray50
+     rep_origin      7696..8002
+                     /label=F1 ori
+                     /ApEinfo_fwdcolor=gray50
+                     /ApEinfo_revcolor=gray50
      misc_feature    complement(8265..9068)
                      /label=URA3 from pRS316
                      /ApEinfo_fwdcolor=#c000c0
                      /ApEinfo_revcolor=#c000c0
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      misc_feature    5256..5540
                      /label=LA PRF signal in dual luciferase
                      /ApEinfo_fwdcolor=#0069ff
                      /ApEinfo_revcolor=#0069ff
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      gene            complement(8187..9294)
                      /label=URA3(1)
                      /ApEinfo_label=URA3
                      /ApEinfo_fwdcolor=#00ffff
                      /ApEinfo_revcolor=#00ffff
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      misc_feature    5646..7211
                      /label=Firefly luciferase (Photinus pyralis)
                      /ApEinfo_fwdcolor=#aba600
                      /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
+     primer_bind     2761..2780
+                     /label=T3
+                     /ApEinfo_fwdcolor=cyan
+                     /ApEinfo_revcolor=green
+     primer_bind     complement(7518..7535)
+                     /label=M13-fwd
+                     /ApEinfo_fwdcolor=cyan
+                     /ApEinfo_revcolor=green
+     primer_bind     2723..2743
+                     /label=M13-rev
+                     /ApEinfo_fwdcolor=cyan
+                     /ApEinfo_revcolor=green
+     primer_bind     complement(7489..7509)
+                     /label=T7
+                     /ApEinfo_fwdcolor=cyan
+                     /ApEinfo_revcolor=green
      rep_origin      1673..2355
                      /label=ColE1 origin (from pBR322)
                      /ApEinfo_fwdcolor=gray50
                      /ApEinfo_revcolor=gray50
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      rep_origin      complement(7684..8124)
-                     /label=F1 ori
+                     /label=F1 ori(1)
+                     /ApEinfo_label=F1 ori
                      /ApEinfo_fwdcolor=gray50
                      /ApEinfo_revcolor=gray50
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
+     rep_origin      7679..8134
+                     /label=M13 origin
+                     /ApEinfo_fwdcolor=gray50
+                     /ApEinfo_revcolor=gray50
+     CDS             7606..7674
+                     /label=LacZ alpha
+                     /ApEinfo_fwdcolor=cornflower blue
+                     /ApEinfo_revcolor=cornflower blue
+     misc_binding    2695..2717
+                     /label=LacO
+                     /ApEinfo_fwdcolor=cornflower blue
+                     /ApEinfo_revcolor=cornflower blue
+     CDS             916..1575
+                     /label=AmpR
+                     /ApEinfo_fwdcolor=yellow
+                     /ApEinfo_revcolor=yellow
      rep_origin      complement(76..586)
                      /label=CEN-ARS pRS
                      /ApEinfo_fwdcolor=#ff6fcf
                      /ApEinfo_revcolor=#ff6fcf
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
+     promoter        2797..4278
+                     /label=ADH1 promoter
+                     /ApEinfo_fwdcolor=#ff0000
+                     /ApEinfo_revcolor=#ff0000
      misc_feature    4315..5255
                      /label=Renilla luciferase (Renilla reniformis)
                      /ApEinfo_fwdcolor=#be5413
                      /ApEinfo_revcolor=#00d000
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      misc_feature    7218..7481
                      /label=CYC Terminator
                      /ApEinfo_fwdcolor=#6600a3
                      /ApEinfo_revcolor=#006000
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      misc_feature    648..676
                      /label=AmpR promoter
                      /ApEinfo_fwdcolor=#88ce03
                      /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      misc_feature    9434..9456
                      /label=pGEX_3_primer
                      /ApEinfo_fwdcolor=#0063ff
                      /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      misc_feature    5569..7211
                      /label=Firefly luciferase (Photinus pyralis)(1)
                      /ApEinfo_label=Firefly luciferase (Photinus pyralis)
                      /ApEinfo_fwdcolor=#aba600
                      /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      misc_feature    complement(8265..9068)
                      /label=Ura3
                      /ApEinfo_fwdcolor=#262c2e
                      /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
      misc_feature    2699..2709
                      /label=Lac Operator
                      /ApEinfo_fwdcolor=#930600
                      /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     2761..2780
-                     /label=T3
-                     /ApEinfo_fwdcolor=cyan
-                     /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     complement(7518..7535)
-                     /label=M13-fwd
-                     /ApEinfo_fwdcolor=cyan
-                     /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     2723..2743
-                     /label=M13-rev
-                     /ApEinfo_fwdcolor=cyan
-                     /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     primer_bind     complement(7489..7509)
-                     /label=T7
-                     /ApEinfo_fwdcolor=cyan
-                     /ApEinfo_revcolor=green
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     rep_origin      1673..2355
-                     /label=ColE1 origin
-                     /ApEinfo_fwdcolor=gray50
-                     /ApEinfo_revcolor=gray50
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     rep_origin      7696..8002
-                     /label=F1 ori(1)
-                     /ApEinfo_label=F1 ori
-                     /ApEinfo_fwdcolor=gray50
-                     /ApEinfo_revcolor=gray50
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     rep_origin      7679..8134
-                     /label=M13 origin
-                     /ApEinfo_fwdcolor=gray50
-                     /ApEinfo_revcolor=gray50
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     CDS             7606..7674
-                     /label=LacZ alpha
-                     /ApEinfo_fwdcolor=#6495ed
-                     /ApEinfo_revcolor=#6495ed
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     misc_binding    2695..2717
-                     /label=LacO
-                     /ApEinfo_fwdcolor=#6495ed
-                     /ApEinfo_revcolor=#6495ed
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     CDS             916..1575
-                     /label=AmpR
-                     /ApEinfo_fwdcolor=yellow
-                     /ApEinfo_revcolor=yellow
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     promoter        2797..4278
-                     /label=ADH1 promoter
-                     /ApEinfo_fwdcolor=#0080c0
-                     /ApEinfo_revcolor=#0080c0
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
 ORIGIN
         1 gnSgacgaaa gggcctcgtg atacgcctat ttttataggt taatgtcatg ataataatgg
        61 tttcttagga cggatcgctt gcctgtaact tacacgcgcc tcgtatcttt taatgatgga
